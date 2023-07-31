@@ -1,0 +1,118 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+  }
+
+
+.home {
+  background: white;
+  animation: mymove 15s infinite;
+
+}
+
+.wordHome {
+  color: black;
+  -webkit-text-stroke: 1px white;
+
+}
+
+.princess {
+  background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/super-mario-wii-u/d/d5/345px-Princess_Peach_Artwork_-_Super_Mario_3D_World.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+    
+  
+}
+.red {
+  background-color: red !important;
+}
+
+.blue {
+  background-color: blue !important;
+}
+
+.luigi {
+  background-image: url(https://ssb.wiki.gallery/images/thumb/b/bb/Luigi_SSBU.png/800px-Luigi_SSBU.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+    
+}
+
+.mario { background-image: url(https://mario.nintendo.com/static/86bd56fed456e9b642100519880b6a86/b3853/mario.png);
+  background-position: center;
+  background-repeat: no-repeat;
+    
+}
+
+
+.circle {
+
+  height: 500px;
+  width: 500px;
+  border-radius: 500px;
+  line-height: 500px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 hsla(0, 0.00%, 0.00%, 0.47), 0 6px 20px 0 rgba(0, 0, 0, 0.46);
+  background-color: hsla(0, 0.00%, 87.50%, 0.50);
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+    
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  }
+
+.navLink {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 125px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 3px 0px 3px;
+  border: 1px solid white;
+}
+
+.navLink:hover {
+  background-color: white;
+  color: black;
+}
+
+.navLink:active {
+  background-color: rgba(161, 161, 161, 0.47);
+  color: white;
+}
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVetU7Pusfn9FWU3cREpaAaLS4_FaxAUVyQg&usqp=CAU) ;
+  background-position: center;
+  background-repeat: repeat;
+  position: relative;
+  font-variant: small-caps;
+  animation: mymove 15s 1;
+  overflow: hidden;
+  
+}
+
+@keyframes mymove {
+  50% {background-color: rgba(0, 0, 0, 0.9);}
+}
+
+
+
