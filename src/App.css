@@ -28,6 +28,13 @@
     
   
 }
+.red {
+  background-color: red !important;
+}
+
+.blue {
+  background-color: blue !important;
+}
 
 .luigi {
   background-image: url(https://ssb.wiki.gallery/images/thumb/b/bb/Luigi_SSBU.png/800px-Luigi_SSBU.png);
